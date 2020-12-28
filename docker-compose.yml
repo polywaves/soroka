@@ -1,0 +1,8 @@
+version: '3.5'
+
+services:
+ soroka:
+    container_name: soroka
+    build:
+      context: .
+    restart: always
